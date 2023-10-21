@@ -11,7 +11,7 @@ pipeline {
          stage('Preperation') {
             steps {
                 // Get some code from a GitHub repository
-                git branch:'master','https://github.com/shrumans/capstoneproject.git'
+                git branch:'master',url:'https://github.com/shrumans/capstoneproject.git'
 
             }
          }
