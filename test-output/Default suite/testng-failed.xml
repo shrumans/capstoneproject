@@ -8,6 +8,7 @@
           <include name="setup"/>
           <include name="addMultipleItemsToCartAndValidateCheckout"/>
           <include name="addItemToCartAndValidateCheckout"/>
+          <include name="validateSignUpAndLoginAsSupplier"/>
           <include name="validateSignUpAndLoginAsUser"/>
           <include name="closedriver"/>
         </methods>
