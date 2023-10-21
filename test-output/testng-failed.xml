@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiTestingCapstone.ApiTests">
+      <class name="simplilearn.capstoneproject.MedicareAppTests">
         <methods>
-          <include name="getApi"/>
+          <include name="setup"/>
+          <include name="addMultipleItemsToCartAndValidateCheckout"/>
+          <include name="addItemToCartAndValidateCheckout"/>
+          <include name="validateSignUpAndLoginAsUser"/>
+          <include name="closedriver"/>
         </methods>
-      </class> <!-- apiTestingCapstone.ApiTests -->
+      </class> <!-- simplilearn.capstoneproject.MedicareAppTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

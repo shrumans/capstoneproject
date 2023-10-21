@@ -1,0 +1,5 @@
+pages\Basepage.class
+pages\Addtocartpage.class
+pages\Loginpage.class
+pages\SignUpPage.class
+utils\TestWait.class

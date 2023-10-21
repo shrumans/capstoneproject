@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-20T19:30:33 IST" name="Surefire suite" finished-at="2023-10-20T19:32:03 IST" duration-ms="89761">
+    <groups>
+    </groups>
+    <test started-at="2023-10-20T19:30:33 IST" name="Surefire test" finished-at="2023-10-20T19:32:03 IST" duration-ms="89761">
+      <class name="simplilearn.capstoneproject.MedicareAppTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:simplilearn.capstoneproject.MedicareAppTests@618b19ad]" started-at="2023-10-20T19:30:33 IST" name="setup" finished-at="2023-10-20T19:30:43 IST" duration-ms="9528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateSignUpAndLoginAsSupplier()[pri:1, instance:simplilearn.capstoneproject.MedicareAppTests@618b19ad]" started-at="2023-10-20T19:30:45 IST" name="validateSignUpAndLoginAsSupplier" finished-at="2023-10-20T19:31:09 IST" duration-ms="23505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpAndLoginAsSupplier -->
+        <test-method signature="validateSignUpAndLoginAsUser()[pri:1, instance:simplilearn.capstoneproject.MedicareAppTests@618b19ad]" started-at="2023-10-20T19:31:09 IST" name="validateSignUpAndLoginAsUser" finished-at="2023-10-20T19:31:25 IST" duration-ms="16963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpAndLoginAsUser -->
+        <test-method signature="addItemToCartAndValidateCheckout()[pri:2, instance:simplilearn.capstoneproject.MedicareAppTests@618b19ad]" started-at="2023-10-20T19:31:25 IST" name="addItemToCartAndValidateCheckout" finished-at="2023-10-20T19:31:41 IST" duration-ms="15142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCartAndValidateCheckout -->
+        <test-method signature="addMultipleItemsToCartAndValidateCheckout()[pri:3, instance:simplilearn.capstoneproject.MedicareAppTests@618b19ad]" started-at="2023-10-20T19:31:41 IST" name="addMultipleItemsToCartAndValidateCheckout" finished-at="2023-10-20T19:32:03 IST" duration-ms="22411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleItemsToCartAndValidateCheckout -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:simplilearn.capstoneproject.MedicareAppTests@618b19ad]" started-at="2023-10-20T19:32:03 IST" name="closedriver" finished-at="2023-10-20T19:32:03 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- simplilearn.capstoneproject.MedicareAppTests -->
+      <class name="apiTestingCapstone.ApiTests">
+        <test-method signature="getApiValidation()[pri:0, instance:apiTestingCapstone.ApiTests@2d3379b4]" started-at="2023-10-20T19:30:43 IST" name="getApiValidation" finished-at="2023-10-20T19:30:45 IST" duration-ms="1958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApiValidation -->
+      </class> <!-- apiTestingCapstone.ApiTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
